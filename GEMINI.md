@@ -33,7 +33,7 @@ The project is configured for automated deployment to GitHub Pages via GitHub Ac
 
 1.  **Repository:** `https://github.com/anarculture/Pythiaweb/`
 2.  **Workflow:** Pushing to the `main` branch triggers the `Deploy static content to Pages` workflow.
-3.  **Vite Configuration:** `vite.config.ts` uses `base: '/Pythiaweb/'`.
+3.  **Vite Configuration:** `vite.config.ts` uses `base: './'` for robust asset resolution.
 
 ## Project Structure
 
