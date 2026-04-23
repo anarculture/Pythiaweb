@@ -1,0 +1,11 @@
+@theme {
+  --color-brand-primary: #0E3931;
+}
+
+@layer base {
+  body {
+    font-family: "Helvetica World", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: var(--color-brand-primary);
+    color: white;
+  }
+}
