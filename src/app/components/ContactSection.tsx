@@ -11,14 +11,10 @@ export function ContactSection() {
           
           <div className="text-[20px] md:text-[24px] lg:text-[28px] leading-[1.4] md:leading-[1.4] font-normal tracking-[-0.01em] flex flex-col gap-8">
             <p>
-              For inquiries, please write to{" "}
-              <a href="mailto:info@pythia.com" className="hover:opacity-60 transition-opacity border-b border-[#0E3931]/30 pb-1">
-                info@pythia.com
-              </a>{" "}
-              or call <span className="whitespace-nowrap">+1 (000) 000-0000</span>.
-            </p>
-            <p className="text-base md:text-lg text-[#0E3931]/70">
-              All correspondence is treated with complete discretion.
+              It all starts with a conversation. Say hello at{" "}
+              <a href="mailto:ciao@francescadefilippo.com" className="hover:opacity-60 transition-opacity border-b border-[#0E3931]/30 pb-1">
+                ciao@francescadefilippo.com
+              </a>
             </p>
           </div>
         </FadeIn>

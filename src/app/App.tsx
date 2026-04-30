@@ -1,5 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./components/HeroSection";
+import { AboutSection } from "./components/AboutSection";
 import { BioSection } from "./components/BioSection";
 import { ApproachSection } from "./components/ApproachSection";
 import { ContactSection } from "./components/ContactSection";
@@ -10,8 +11,9 @@ export default function App() {
       <Navbar />
       <main>
         <HeroSection />
-        <BioSection />
+        <AboutSection />
         <ApproachSection />
+        <BioSection />
         <ContactSection />
       </main>
     </div>

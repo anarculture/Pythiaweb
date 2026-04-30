@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import { ImageWithFallback } from "./figma/ImageWithFallback";
+import logo from "../../imports/pythialogo.png";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,7 +9,7 @@ export function Navbar() {
   const links = [
     { label: "About", href: "#about" },
     { label: "Bio", href: "#bio" },
-    { label: "Approach", href: "#approach" },
+    { label: "Practice", href: "#practice" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -23,8 +25,8 @@ export function Navbar() {
   return (
     <>
       <header className="absolute top-0 left-0 w-full z-50 px-6 py-8 md:px-12 flex justify-between items-center text-white mix-blend-difference">
-        <a href="#about" onClick={(e) => handleScroll(e, "#about")} className="text-sm tracking-wider font-medium">
-          Pythia
+        <a href="#top" onClick={(e) => handleScroll(e, "#top")} className="block h-6 w-auto">
+          <ImageWithFallback src={logo} alt="Pythia Logo" className="h-full w-auto object-contain invert brightness-0" />
         </a>
         
         {/* Desktop Nav */}
@@ -53,7 +55,9 @@ export function Navbar() {
             className="fixed inset-0 bg-[#0E3931] z-50 flex flex-col p-6 text-white"
           >
             <div className="flex justify-between items-center py-2">
-              <span className="text-sm tracking-wider font-medium">Pythia</span>
+              <div className="h-6 w-auto">
+                <ImageWithFallback src={logo} alt="Pythia Logo" className="h-full w-auto object-contain" />
+              </div>
               <button className="p-2 text-sm uppercase tracking-widest" onClick={() => setIsOpen(false)}>
                 Close
               </button>
