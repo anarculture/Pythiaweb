@@ -25,7 +25,7 @@ export function ContactSection() {
           <div className="w-full h-[1px] bg-[#0E3931]/20 mb-8" />
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 text-[10px] md:text-xs uppercase tracking-[0.2em] text-[#0E3931]/80">
             <p>Pythia · Miami · Madrid · Caracas</p>
-            <p>© 2026 Pythia Art Advisory</p>
+            <p>© 2026 Pythia</p>
           </div>
         </FadeIn>
       </div>

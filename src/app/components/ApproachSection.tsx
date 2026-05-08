@@ -1,12 +1,9 @@
-import image_b3c8bff50d82f4d069e16505822248369b7f2bc4 from 'figma:asset/b3c8bff50d82f4d069e16505822248369b7f2bc4.png'
 import { FadeIn } from "./FadeIn";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
-
 export function ApproachSection() {
   const blocks = [
     {
       title: "Acquisitions and Sales",
-      desc: "Pythia looks at what a client is drawn to, what they already own, and where they want to go. From this initial engagement, the process covers it all: from research and sourcing to logistics and installation. Sales, leases, and donations are handled with the same care, including guidance on timing, placement, and long-term impact."
+      desc: "Pythia looks at what a client is drawn to, what they already own, and where they want to go. From this initial engagement, the process covers it all: from getting started, to research and sourcing, to logistics and installation. Sales, leases, and donations are handled with the same care, including guidance on timing, placement, and long-term impact."
     },
     {
       title: "Collection Strategy",
@@ -19,7 +16,7 @@ export function ApproachSection() {
   ];
 
   return (
-    <section id="practice" className="py-24 md:py-40 px-6 md:px-12 lg:px-24 bg-[#0E3931] text-white">
+    <section id="practice" className="py-24 md:py-40 px-6 md:px-12 lg:px-24 bg-white text-[#0E3931]">
       <div className="max-w-[1440px] mx-auto flex flex-col gap-16 md:gap-24">
         
         <div className="max-w-4xl">
@@ -30,30 +27,19 @@ export function ApproachSection() {
           </FadeIn>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 lg:gap-16 pt-12 md:pt-16 border-t border-white/20">
+        <div className="flex flex-col gap-12 md:gap-16 pt-12 md:pt-16 border-t border-[#0E3931]/20">
           {blocks.map((block, i) => (
             <FadeIn key={i} delay={0.1 + (i * 0.1)} className="flex flex-col gap-6">
-              <h3 className="text-[11px] md:text-xs uppercase tracking-[0.15em] font-medium text-white/70">
+              <h3 className="text-[11px] md:text-xs uppercase tracking-[0.15em] font-medium text-[#0E3931]/70">
                 {block.title}
               </h3>
-              <p className="text-base md:text-[17px] leading-[1.6] text-white/90">
+              <p className="text-[18px] md:text-[20px] lg:text-[22px] leading-[1.4] md:leading-[1.5] font-normal tracking-[-0.01em] text-[#0E3931]/90">
                 {block.desc}
               </p>
             </FadeIn>
           ))}
         </div>
 
-        <FadeIn delay={0.3} className="pt-24 md:pt-40 flex justify-center">
-          <div className="w-full max-w-5xl p-6 md:p-12 lg:p-16 border border-white/10 bg-black/10 rounded-[2px]">
-             <div className="w-full aspect-[21/9] overflow-hidden rounded-[2px]">
-               <ImageWithFallback 
-                 src={image_b3c8bff50d82f4d069e16505822248369b7f2bc4} 
-                 alt="Landscape Visual Pause" 
-                 className="w-full h-full object-cover object-center scale-[1.02] hover:scale-105 transition-transform duration-[2s] ease-out"
-               />
-             </div>
-          </div>
-        </FadeIn>
 
       </div>
     </section>
