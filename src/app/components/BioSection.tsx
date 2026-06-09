@@ -1,6 +1,6 @@
 import { FadeIn } from "./FadeIn";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import portrait from "../../imports/portrait.png";
+import portrait from "../../imports/portrait.jpeg";
 
 export function BioSection() {
   return (

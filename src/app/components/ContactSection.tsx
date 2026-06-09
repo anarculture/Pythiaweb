@@ -27,7 +27,7 @@ export function ContactSection() {
             <p>Pythia · Miami · Madrid · Caracas</p>
             <div className="flex items-center gap-6">
               <a
-                href="https://www.instagram.com/pythia.advisory/"
+                href="https://www.instagram.com/bypythia/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-60 transition-opacity"
