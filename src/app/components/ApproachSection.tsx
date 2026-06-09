@@ -2,12 +2,16 @@ import { FadeIn } from "./FadeIn";
 export function ApproachSection() {
   const blocks = [
     {
-      title: "Acquisitions and Sales",
+      title: "Acquisition and Sales",
       desc: "Pythia looks at what a client is drawn to, what they already own, and where they want to go. From this initial engagement, the process covers it all: from getting started, to research and sourcing, to logistics and installation. Sales, leases, and donations are handled with the same care, including guidance on timing, placement, and long-term impact."
     },
     {
       title: "Collection Strategy",
       desc: "Looking beyond individual works, Pythia helps establish and refine a collection's vision over time. This includes grounding its identity and thinking through questions of legacy: what it stands for now, and what will happen to it tomorrow."
+    },
+    {
+      title: "Market Intelligence",
+      desc: "Knowing where to look matters. Pythia provides market analysis, artist insights, and discovery reports tailored to individual interests. Clients also have access to studio visits, private gallery viewings, and fair previews, where some of the most meaningful conversations happen."
     },
     {
       title: "Commissions and Placements",

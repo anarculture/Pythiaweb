@@ -8,15 +8,18 @@ export function BioSection() {
       <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row gap-16 lg:gap-32">
         <div className="lg:w-1/2 flex flex-col">
           <FadeIn>
-            <h2 className="text-xl md:text-2xl uppercase tracking-[0.1em] font-normal mb-12">
+            <h2 className="text-xl md:text-2xl uppercase tracking-[0.1em] font-normal mb-2">
               Francesca De Filippo
             </h2>
+            <p className="text-[11px] md:text-xs uppercase tracking-[0.15em] font-medium text-[#0E3931]/60 mb-12">
+              Founder
+            </p>
           </FadeIn>
           
           <FadeIn delay={0.1}>
             <div className="prose prose-lg text-[#0E3931] text-[18px] md:text-[20px] lg:text-[22px] leading-[1.4] md:leading-[1.5] font-normal tracking-[-0.01em] max-w-xl flex flex-col gap-6">
               <p>
-                Francesca De Filippo is an independent art advisor with over a decade of experience across the art market and international business. She holds a Postgraduate Diploma and a Masters in Art History from the Courtauld Institute of Art in London, where she specialised in Alternative Art in Eastern Europe and Latin America during the Cold War. She also holds a degree in Business from EU Business School in Barcelona, where her dissertation "Is the Art World Immune to Globalisation? A Study of Cultural Gaps and Investment Practices" received the award of excellence for the best undergraduate thesis.
+                Francesca De Filippo is an independent art advisor and founder of Pythia, with over a decade of experience across the art market and international business. She holds a Postgraduate Diploma and a Masters in Art History from the Courtauld Institute of Art in London, where she specialised in Alternative Art in Eastern Europe and Latin America during the Cold War. She also holds a degree in Business from EU Business School in Barcelona, where her dissertation "Is the Art World Immune to Globalisation? A Study of Cultural Gaps and Investment Practices" received the award of excellence for the best undergraduate thesis.
               </p>
               <p>
                 Her professional background spans White Cube and Christie's in London and Nina Johnson in Miami, alongside commercial roles in the corporate sector, where she developed strategic alliances with leading corporations across EMEA, building a fluency across business environments that has informed every side of her practice.

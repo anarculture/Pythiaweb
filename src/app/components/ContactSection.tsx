@@ -25,7 +25,18 @@ export function ContactSection() {
           <div className="w-full h-[1px] bg-[#0E3931]/20 mb-8" />
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 text-[10px] md:text-xs uppercase tracking-[0.2em] text-[#0E3931]/80">
             <p>Pythia · Miami · Madrid · Caracas</p>
-            <p>© 2026 Pythia</p>
+            <div className="flex items-center gap-6">
+              <a
+                href="https://www.instagram.com/pythia.advisory/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-60 transition-opacity"
+                aria-label="Follow Pythia on Instagram"
+              >
+                Instagram
+              </a>
+              <p>© 2026 Pythia</p>
+            </div>
           </div>
         </FadeIn>
       </div>
